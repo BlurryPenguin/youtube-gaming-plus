@@ -1,0 +1,790 @@
+body,
+.side-nav {
+	background-color: #16191d !important;
+}
+
+body,
+body a {
+	color: #e6e6e6 !important;
+}
+
+body.yt-layout .main-nav,
+.content-nav--variant-default {
+	background: #000 !important;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.detail-navigation__item--is-active .detail-navigation__link,
+.detail-navigation__more--is-active .detail-navigation__link {
+	color: #208efc !important;
+	cursor: default !important;
+}
+
+.navigation__item--active .navigation__item__link {
+	color: #fff !important;
+	background-color: #208efc !important;
+}
+
+.navigation__item__link:focus,
+.navigation__item__link:hover {
+	color: #208efc !important;
+}
+
+.navigation__item--active:focus .navigation__item__link,
+.navigation__item--active:hover .navigation__item__link {
+	color: #fff !important;
+	background-color: #208efc !important;
+}
+
+.detail-navigation__link:focus,
+.detail-navigation__link:hover {
+	color: #208efc !important;
+}
+
+.yt-alert {
+	background-color: #1d2126 !important;
+}
+
+.call-to-action-banner {
+	background-color: #1d2126 !important;
+}
+
+.yt-button-show-more .yt-icon {
+	color: #999 !important;
+}
+
+.button--cancel,
+.button--variant-cancel,
+.button--variant-modal-cancel {
+	color: #fff !important;
+	background-color: #3a3e42 !important;
+}
+
+.button--cancel:focus,
+.button--cancel:hover,
+.button--variant-cancel:focus,
+.button--variant-cancel:hover,
+.button--variant-modal-cancel:focus,
+.button--variant-modal-cancel:hover {
+	color: #fff !important;
+	background-color: #4d5154 !important;
+}
+
+.nav-logo__full path
+/*:first-child*/ {
+	fill: rgb(255, 255, 255) !important;
+}
+
+.nav-links__link {
+	color: #999 !important;
+}
+
+.nav-links__link:hover {
+	color: #208efc !important;
+}
+
+.main-nav {
+	background: #101214 !important;
+	box-shadow: inset 0 -1px 0 #282b30 !important;
+}
+
+.main-nav-search {
+	background: #121417 !important;
+}
+
+.main-nav-search__header {
+	background: #121417 !important;
+}
+
+.main-nav__wrapper .nav-user img {
+	background-color: #1d2126 !important;
+}
+
+.main-nav-search__content {
+	background-color: #121417 !important;
+}
+
+.yt-search-input__input {
+	color: #fff !important;
+}
+
+.yt-search-input__input:hover {
+	background: transparent !important;
+}
+
+.main-nav-search__header .button-close__icon .yt-icon {
+	color: #999 !important;
+}
+
+.main-nav-search-results {
+	background-color: #1d2126 !important;
+}
+
+.main-nav__item {
+	color: #999 !important;
+}
+
+.main-nav__item--signup {
+	color: #208efc !important;
+}
+
+.main-nav__item--user .main-nav__item__icon {
+	background-color: #101214 !important;
+}
+
+.sub-nav__item--is-active .sub-nav__link {
+	color: #00b5f2 !important;
+}
+
+.nav-search-btn .yt-icon {
+	color: #999 !important;
+}
+
+.yt-search-input__input {
+	border: 1px solid transparent !important;
+	color: #333 !important;
+}
+
+.yt-search-input__input,
+.yt-search-input__input:focus,
+.yt-search-input__input:hover {
+	background-color: transparent !important;
+}
+
+.platform-info {
+	background-color: #1d2126 !important;
+}
+
+.platform-info:after,
+.platform-info:before {
+	background-color: #1d2126 !important;
+}
+
+.select2-drop {
+	background: #404040 !important;
+	color: #e6e6e6 !important;
+}
+
+input,
+.yt-input__input,
+textarea,
+.select2-choice {
+	color: #fff !important;
+	background-color: #3a3e42 !important;
+}
+
+input:hover,
+input:focus,
+.yt-input__input:hover,
+.yt-input__input:focus,
+textarea:hover,
+textarea:focus,
+.select2-choice:hover,
+.select2-choice:focus {
+	color: #fff !important;
+	background-color: #4e5256 !important;
+}
+
+.select2-choice,
+input,
+textarea {
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	color: #fff !important;
+	background-color: #3a3e42 !important;
+}
+
+.select2-choice:focus,
+.select2-choice:hover,
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover {
+	color: #999 !important;
+}
+
+.btn {
+	background-color: #3a3e42 !important;
+}
+
+.button--outline,
+.button--variant-outline {
+	color: #fff !important;
+}
+
+.btn,
+.button-close__icon .yt-icon {
+	color: #fff !important;
+}
+
+.btn:hover {
+	background-color: #4e5256 !important;
+}
+
+.btn:hover,
+button:hover,
+.button-close__icon .yt-icon:hover {
+	color: #999 !important;
+}
+
+.user-menu__user__logout:hover {
+	color: #000 !important;
+}
+
+.user-card__name {
+	color: #404040 !important;
+}
+
+.user-card--variant-sidebar .user-card__name {
+	color: #e6e6e6 !important;
+}
+
+.main-nav-search-results__content ul.userlist li .user-card__name {
+	color: #e6e6e6 !important;
+}
+
+.home-page__header {
+	background-color: #16191d !important;
+	background-image: linear-gradient(#16191d, #2b323b) !important;
+}
+
+.carousel-controls__button .yt-icon,
+.home-page__content__item--category-esports .carousel-controls__button .yt-icon,
+.home-page__content__item--category-recommended .carousel-controls__button .yt-icon {
+	background-color: #16191d !important;
+	color: hsla(0, 0%, 100%, 0.5) !important;
+}
+
+.carousel-controls--has-dark-background .carousel-controls__button .yt-icon {
+	background-color: transparent !important;
+}
+
+.carousel-controls__button:hover .yt-icon,
+.carousel-controls__button:focus .yt-icon {
+	color: #fff !important;
+}
+
+.media-list-carousel__pagination__item,
+.yt-carousel-pagination__item,
+.yt-carousel-pagination--color-default .yt-carousel-pagination__item {
+	background-color: #fff !important;
+}
+
+.media-list-carousel__items .t-status,
+ul.t1 .t-status,
+.media-list__items .t-status {
+	color: #ccc !important;
+}
+
+.media-list__items .t-status a {
+	color: #ccc !important;
+}
+
+.media-list__items .t-name {
+	color: #e6e6e6 !important;
+}
+
+.media-list__items .t-status a:focus,
+.media-list__items .t-status a:hover {
+	color: #208efc !important;
+}
+
+/*
+.media-list__items .t-meta {
+    background: #16191d; /*1d2126*/
+
+/*}*/
+
+.media-list__items .t-grad {
+	background-color: transparent !important;
+	background-image: linear-gradient(195deg, transparent 50%, rgba(0, 0, 0, 0.9) 90%) !important;
+}
+
+tags-input .tags .tag-item {
+	color: #404040 !important;
+}
+
+tags-input .tags .tag-item .remove-button {
+	color: #000 !important;
+}
+
+#tooltip,
+#tooltip a,
+#tooltip input,
+#tooltip label,
+#tooltip textarea {
+	color: #404040 !important;
+}
+
+#tooltip:hover,
+#tooltip a:hover,
+#tooltip input:hover,
+#tooltip label:hover,
+#tooltip textarea:hover {
+	color: #208efc !important;
+}
+
+.detail-page:not(.detail-page--theater)
+	.detail-page__content__wrap
+	.detail-page__content__section.detail-page__content__player.detail-page__content__player--videos-page:not(.detail-page__content__player--mini),
+.detail-profile,
+.detail-sidebar--mock .detail-sidebar__user,
+.detail-sidebar__user,
+.esports-media--status-future .esports-media__content,
+.esports-media__content,
+.feed-item,
+.youtube-typeahead__dropdown {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px 2px hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.home-page__content__item--category-recommended,
+.home-page__content__item--category-esports {
+	background-color: #16191d !important;
+}
+
+.navigation__collection__link--primary {
+	color: #404040 !important;
+}
+
+.box,
+.box-list,
+.box-list .table__list--header .table__list__row {
+	background-color: #1d2126 !important;
+	border-color: hsla(0, 0%, 100%, 0.1) !important;
+}
+
+.box__row {
+	border-top: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.box .table__list__row {
+	border-color: #282b30 !important;
+}
+
+.box-list .table__pagination--bottom {
+	background: #1d2126 !important;
+	border-top: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.box-list .table__list__row {
+	border-color: hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.game--grid > .game__link {
+	background-color: #000 !important;
+}
+
+.dropdown-menu {
+	color: #333 !important;
+}
+
+.dropdown-menu > li > a,
+.navigation__item__link:not(.toggle-checkbox) {
+	color: #333 !important;
+}
+
+.dropdown-menu > li > a,
+.navigation__item__link:not(.toggle-checkbox):focus,
+.dropdown-menu > li > a,
+.navigation__item__link:not(.toggle-checkbox):hover {
+	color: #208efc !important;
+}
+
+.youtube-typeahead__dropdown {
+	background: #404040 !important;
+	border-color: #d9d9d9 !important;
+}
+
+.youtube-typeahead__dropdown__item__link {
+	color: #fff !important;
+}
+
+.modal-blacklist .tags {
+	background-color: transparent !important;
+}
+
+.modal-blacklist .tags .input {
+	color: #333 !important;
+	background-color: #fff !important;
+	border: 1px solid #333 !important;
+}
+
+/*
+.browse-page .media-list__live-list {
+    background-color: #1f2329 !important;
+    border: 1px solid hsla(0, 0%, 100%, .15) !important;
+    box-shadow: 1px 1px 2px hsla(0, 0%, 100%, .15) !important;
+}
+*/
+
+.modal-body {
+	color: #999 !important;
+}
+
+.modal-body a {
+	color: #e6e6e6 !important;
+}
+
+.modal-backdrop {
+	background: rgba(0, 0, 0, 0.85) !important;
+}
+
+.modal > .modal-dialog {
+	background: #2a2e33 !important;
+}
+
+.modal-header h3 {
+	color: #999 !important;
+}
+
+h4 {
+	color: #fff !important;
+}
+
+.app-links--variant-cta .app-links__title {
+	color: #999 !important;
+}
+
+/* eSports Page */
+
+.esports-media__link:focus,
+.esports-media__link:hover {
+	color: #999 !important;
+}
+
+.esport-scores__upcoming__text {
+	background-color: #1f2329 !important;
+	color: #fff !important;
+}
+
+.esport-scores__team {
+	color: #e6e6e6 !important;
+}
+
+.esport-scores__meta .esport-scores__info {
+	text-align: right !important;
+	color: rgba(255, 255, 255, 0.5) !important;
+}
+
+body.browse .media-list--type-esports-live .esports-media--status-live {
+	padding-bottom: 0 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.esports-media__date {
+	background-color: #32373d !important;
+}
+
+.esports-media__date__time,
+.esports-media__channel {
+	color: #999 !important;
+}
+
+.esports-media__link,
+.esports-media--status-future .esports-media__channel,
+.esports-media__title,
+.esports-media__language,
+.esports-media__date__day {
+	color: #e6e6e6 !important;
+}
+
+.esports-media .scores__team__name,
+.esports-media .scores__team__name__full,
+.esports-media .scores__team__name__short,
+.scores__team,
+.scores__divider:after {
+	color: #fff !important;
+}
+
+.media-list--type-esports-live .media-element {
+	padding-right: 0 !important;
+}
+
+.media-list--type-esports-upcoming .media-element {
+	padding-right: 0 !important;
+}
+
+.esports-media__content {
+	background-color: rgba(31, 35, 41, 0.35) !important;
+	/* rgba(153, 204, 0, .35) */
+}
+
+/* Browse Page */
+
+.browse-channels--following,
+.browse-channels--recommended,
+.browse-channels--following-vods {
+	background-color: #16191d !important;
+}
+
+.browse-channels__header {
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.browse-channels-filters__item__link {
+	color: #e6e6e6 !important;
+}
+
+/* Team Page */
+
+.team-item .content,
+.teams-settings__options {
+	background: #282b30 !important;
+}
+
+/* Stats Page */
+
+.statistics__chart {
+	background-color: #282b30 !important;
+}
+
+#date-range #date-range-field {
+	background-color: transparent !important;
+	box-shadow: 0 0 0 1px hsla(0, 0%, 60%, 0.6) !important;
+}
+
+.currency {
+	font-size: 0.75em !important;
+	padding-right: 0.5em !important;
+}
+
+.statistics .jvectormap-zoomin:before,
+.statistics .jvectormap-zoomout:before {
+	color: #e6e6e6 !important;
+}
+
+/* Revenue Page */
+
+.revenues__history__row {
+	border-top: 1px solid #16191d !important;
+}
+
+.form__row {
+	border-top: 1px solid #16191d !important;
+}
+
+/* Player */
+
+.player-controls__button,
+.player-controls__button:hover {
+	background-color: transparent !important;
+}
+
+.player-quality-menu .navigation__item__link {
+	color: #ccc !important;
+	background-color: #252525 !important;
+}
+
+.player-quality-menu .navigation__item__link:focus,
+.player-quality-menu .navigation__item__link:hover {
+	color: #208efc !important;
+}
+
+.player-quality-menu .navigation__item__link--is-active {
+	color: #208efc !important;
+}
+
+/* Connections Page */
+
+.discord-guild-manager__header {
+	background-color: #1d2126 !important;
+}
+
+.discord-guild-manager {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Teams Page */
+
+.team-item .header .cover,
+.team-item .header .cover .image {
+	box-shadow: inset 0 -200px 140px -130px rgba(22, 25, 29, 0.7) !important;
+}
+
+.team-item {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.05) !important;
+}
+
+.newTeamWrap input,
+.newTeamWrap textarea {
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	color: #e6e6e6 !important;
+}
+
+.newTeamWrap .team-url {
+	color: #999 !important;
+}
+
+/* Subscriptions Page */
+
+.subscriptionCard-wrap .subscriptionCard {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px rgba(0, 0, 0, 0.05) !important;
+}
+
+.subscriptionCard-wrap .subscriptionCard__content {
+	background: rgba(42, 46, 51, 0.7) !important;
+}
+
+.subscriptionCard-wrap .subscriptionCard__footer {
+	background: rgba(42, 46, 51, 0.7) !important;
+}
+
+/* Subscription Module */
+
+.subscription-paywall__description__header__name {
+	color: #4e4e4e !important;
+}
+
+.subscription-paywall__footer a {
+	color: #4e4e4e !important;
+}
+
+/* Subscriber Emoji Page */
+
+.box__title__badge {
+	background-color: #2a2e33 !important;
+}
+
+/* Chat Settings Page */
+
+tags-input .tags {
+	background-color: #1d2126 !important;
+}
+
+.chat-blacklist-settings__tags .tags .input {
+	color: #e6e6e6 !important;
+	background-color: #3a3e42 !important;
+}
+
+.chat-blacklist-settings__tags .tags .input:hover,
+.chat-blacklist-settings__tags .tags .input:focus {
+	color: #e6e6e6 !important;
+	background-color: #4e5256 !important;
+	border-color: #208efc !important;
+}
+
+.table--no-data .table__no-data {
+	border-top: 1px solid #16191d !important;
+	color: #999 !important;
+}
+
+/* Video Manager Page */
+
+.video-manager__list__buttons__delete {
+	background: transparent !important;
+	color: #999 !important;
+}
+
+.video-manager__list__buttons__delete:hover {
+	background: #cc231f !important;
+}
+
+.video-manager__list__views {
+	color: #999 !important;
+}
+
+/* Login/Sign Up  */
+
+.external-authentification-choice__button {
+	color: #e6e6e6 !important;
+}
+
+.yt-input__forgot {
+	background-color: #2b2b2b !important;
+	color: #999 !important;
+}
+
+/* broadcast-tools */
+
+.studio-app__body__text {
+	color: #e6e6e6 !important;
+}
+
+/* Footer */
+
+.main-footer {
+	background-color: rgba(0, 0, 0, 0.3) !important;
+	box-shadow: inset 0 40px 30px -40px rgba(0, 0, 0, 0.5) !important;
+	border-top: 1px solid #000 !important;
+}
+
+.main-footer__language-select .select2-choice {
+	border: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+}
+
+.feed__footer-logo logo path {
+	fill: rgba(255, 255, 255, 0.15) !important;
+}
+
+/* Feedback */
+
+.feedback .feedback-wrapper {
+	color: #e6e6e6 !important;
+}
+
+/* Admin */
+
+.studio__admin__settings__transcodings {
+	background-color: #2a2e33 !important;
+}
+
+.studio__admin__settings__cdn__box {
+	background-color: #2a2e33 !important;
+}
+
+.studio__admin__settings__cdn__box__item {
+	background-color: hsla(0, 0%, 100%, 0.2) !important;
+}
+
+.studio__admin__settings__cdn__box .select2-search-field input {
+	color: #fff !important;
+}
+
+.studio__admin__settings__cdn__box .select2-search-choice {
+	color: #fff !important;
+}
+
+.admin {
+	background: #1d2126 !important;
+}
+
+.admin__logo {
+	background: #121417 !important;
+}
+
+.admin__nav {
+	background: #121417 !important;
+}
+
+.translation-admin--hasPagination .table__pagination,
+.translation-admin .translation-admin__header {
+	background-color: #1d2126 !important;
+}
+
+.admin__new-emotes {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px 2px hsla(0, 0%, 100%, 0.15) !important;
+}
+
+/* Styled-Components */
+
+/* Language selector */
+
+[class*='LanguageSwitchstyles__StyledLabel-'],
+[class*='Itemstyles__StyledContent-'],
+[class*='SlowModestyles__StyledToggle-'] {
+	color: #333 !important;
+}
+
+[class*='LanguageSwitchstyles__StyledLabel-']:hover,
+[class*='LanguageSwitchstyles__StyledLabel-']:focus {
+	color: #208efc !important;
+}

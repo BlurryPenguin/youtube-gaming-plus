@@ -1,0 +1,366 @@
+/* Channel */
+
+body.channel {
+	background-color: #101214 !important;
+}
+
+.uploadImg .image {
+	background-color: #1d2126 !important;
+}
+
+#offline-wrap {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.detail-navigation__list {
+	box-shadow: inset 1px 0 0 0 #282b30 !important;
+}
+
+body.channel .main-nav,
+body.video .main-nav {
+	background-color: #101214 !important;
+}
+
+.detail-profile {
+	background: #1d2126 !important;
+}
+
+.detail-page__content__wrap .detail-page__content__section.detail-page__content__player {
+	background: #282b30 !important;
+}
+
+.detail-page__content__wrap .detail-page__content__profile .scrollable .tse-content {
+	background: #1d2126 !important;
+}
+
+.detail-profile-panels .deckgrid .column strong {
+	color: #e6e6e6 !important;
+}
+
+.follow-button--variant-primary .follow-button__button {
+	color: #e6e6e6 !important;
+}
+
+.follow-button--variant-primary .yt-icon {
+	color: #00b5f2 !important;
+}
+
+.dropdown-menu > li > a {
+	color: #999 !important;
+}
+
+/* Cheering */
+
+.detail-page__content__wrap .detail-page__content__section--cheering-controls {
+	background: transparent !important;
+}
+
+.yt-cheering-esports-scores__team__score {
+	color: #e6e6e6 !important;
+}
+
+.yt-cheering-esports-scores:after {
+	color: #e6e6e6 !important;
+}
+
+/* Chat */
+
+.detail-chat {
+	background-color: #1d2126 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.detail-chat__content {
+	background: #1d2126 !important;
+}
+
+.detail-chat .chat-input__inner {
+	background: #282b30 !important;
+}
+
+.detail-chat-toggle__button {
+	color: #e6e6e6 !important;
+}
+
+.chat-buttons__tab-content,
+.chat-buttons__button-row {
+	border-top: 1px solid #16191d !important;
+}
+
+.chat-tabs {
+	box-shadow: inset 0 -1px 0 0 #16191d !important;
+}
+
+.chat-gif-selector__item__link {
+	background-color: hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.chat-gif-selector__search__clear {
+	color: #e6e6e6 !important;
+}
+
+.chat-gif-selector__search__clear:focus,
+.chat-gif-selector__search__clear:hover {
+	color: #999 !important;
+}
+
+.chat-gif-selector__results__more__button {
+	color: #e6e6e6 !important;
+}
+
+.chat-gif-selector__results__more__button:focus,
+.chat-gif-selector__results__more__button:hover {
+	color: #999 !important;
+}
+
+.chat-gif-selector__search__input,
+.chat-gif-selector__search__input:focus,
+.chat-gif-selector__search__input:hover {
+	color: #e6e6e6 !important;
+}
+
+.chat-gif-selector__search__input:focus,
+.chat-gif-selector__search__input:hover {
+	border-color: #208efc !important;
+}
+
+.chat-tabs__wrap {
+	background-color: #101214 !important;
+}
+
+.chat-input .public-DraftEditorPlaceholder-root,
+.chat-input__input,
+.chat-input__login {
+	color: #e6e6e6 !important;
+}
+
+.chat-input__inner {
+	border-top: 1px solid #16191d !important;
+}
+
+chat-button .chat-button .yt-icon {
+	color: #e6e6e6 !important;
+}
+
+chat-buttons .chat-buttons__tab-content--settings.chat-buttons__tab-content {
+	background: #1d2126 !important;
+}
+
+.chat-user-list .user {
+	border-bottom: 1px solid transparent !important;
+}
+
+.modal-blacklist > .modal-dialog {
+	background: #ededed !important;
+}
+
+.modal-content {
+	box-shadow: 0 0px 0px rgba(0, 0, 0, 0) !important;
+}
+
+/* Hosting */
+
+.hosted-bar {
+	background-color: #2a2e33 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px 2px hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.hosted-bar__content__meta__user {
+	color: #e6e6e6 !important;
+}
+
+/* Embed Chat */
+
+.detail-chat__embed-connect {
+	background: #1d2126 !important;
+}
+
+/* Feed */
+
+.feed-item {
+	background-color: #2a2e33 !important;
+	border: 1px solid hsla(0, 0%, 100%, 0.15) !important;
+	box-shadow: 1px 1px 2px hsla(0, 0%, 100%, 0.15) !important;
+}
+
+.feed--empty:after,
+.feed--empty:before {
+	background: rgba(255, 255, 255, 0.15) !important;
+}
+
+.poll {
+	background-color: #2a2e33 !important;
+}
+
+.feed-active-poll {
+	border: 3px solid #208efc !important;
+}
+
+.poll-feed-item__answers__item__bar div {
+	background-color: rgba(32, 142, 252, 0.5) !important;
+}
+
+.poll-feed-item__answers__item {
+	background: rgba(32, 142, 252, 0.3) !important;
+}
+
+.poll-feed-item__answer__text,
+.giveaway-settings__winners a {
+	color: #999 !important;
+}
+
+/* Profile */
+
+.detail-profile-panels .panel .panel-head {
+	background: #3e4041 !important;
+}
+
+.detail-profile-panels .panel .panel-body {
+	background: #222426 !important;
+	border: 5px solid #3e4041 !important;
+}
+
+.detail-profile-panels .panel .panel-body .panel-headline input {
+	color: #fff !important;
+}
+
+.detail-profile-panels .panel .panel-body .panel-content textarea {
+	color: #fff !important;
+}
+
+.detail-profile-panels .md-editor .btn-toolbar {
+	background: #3e4041 !important;
+}
+
+.detail-profile-panels .md-editor .btn-toolbar .btn-group .btn {
+	background-color: #3a3e42 !important;
+	color: #fff !important;
+}
+
+.detail-profile-panels .panel .panel-body .panel-image {
+	background: #1d2126 !important;
+}
+
+/* Videos */
+
+.detail-page:not(.detail-page--theater)
+	.detail-page__content__wrap
+	.detail-page__content__section.detail-page__content__player.detail-page__content__player--videos-page:not(.detail-page__content__player--mini),
+.detail-videos {
+	background-color: #1d2126 !important;
+	border: 1px solid #282b30 !important;
+	box-shadow: 1px 1px 2px #282b30 !important;
+}
+
+.detail-videos__filters__item {
+	color: #e6e6e6 !important;
+}
+
+/* Dashboard */
+
+body.dashboard {
+	background-color: #16191d !important;
+}
+
+.dash__column--column-actions .dash__column__header,
+.dash__column--column-stream-actions .dash__column__header,
+.dash__column--column-stream .dash__column__header {
+	background-color: transparent !important;
+	background-image: linear-gradient(180deg, #16191d 20%, transparent) !important;
+}
+
+.dash__column--column-stream-actions__bottom-gradient {
+	background-color: transparent !important;
+	background-image: linear-gradient(0deg, #16191d 20%, transparent) !important;
+}
+
+.dash__column__header,
+.studio-dashboard-stream-title {
+	text-shadow: 1px 1px 2px #16191d !important;
+	color: #ccc !important;
+}
+
+.dash__column__header--active {
+	color: #00b5f2 !important;
+}
+
+.dash .collapsible {
+	border-color: #16191d !important;
+}
+
+.dash__section__meta {
+	background-color: #2a2e33 !important;
+}
+
+.dash__input {
+	border-bottom: 1px solid #3e4041 !important;
+}
+
+.dash__input__input {
+	border: 1px solid #2a2e33 !important;
+	color: #ccc !important;
+	background-color: #2a2e33 !important;
+}
+
+.dash__input__input:focus,
+.dash__input__input:hover,
+.feed-item__content textarea.dash__input__input:focus,
+.feed-item__content textarea.dash__input__input:hover {
+	border: 1px solid #2a2e33 !important;
+	color: #ccc !important;
+	background-color: #2a2e33 !important;
+}
+
+.feed-item__content create-poll .dash__input .dash__input__label {
+	color: #999 !important;
+}
+
+.collapsible--variant-default-active .collapsible__content,
+.collapsible--variant-default .collapsible__content {
+	border-top: 1px solid #16191d !important;
+}
+
+.collapsible--variant-default,
+.collapsible--variant-default-active {
+	background-color: #2a2e33 !important;
+}
+
+.dashboard__chat__activity-log-wrapper,
+.dashboard__chat__chat-wrapper {
+	background-color: #282b30 !important;
+}
+
+.dashboard__chat__mod-settings {
+	background-color: #282b30 !important;
+}
+
+.dash-userlist.chat-userlist .chat-user-list__header .search-wrap input {
+	background-color: #2a2e33 !important;
+}
+
+.commercial-break-settings__card1 {
+	background-color: #2a2e33 !important;
+}
+
+.commercial-break-settings__card1__button__plus-minus {
+	color: #fff !important;
+}
+
+.commercial-break-settings__card1__button__button {
+	background-color: #208efc !important;
+}
+
+.chat-log-messages__info {
+	color: #fff !important;
+}
+
+.chat-user-list--sticky {
+	border-left: none !important;
+}
+
+.detail-chat .chat-user-list--sticky {
+	border-color: #16191d !important;
+	border-left: 1px solid hsla(0, 0%, 100%, 0.1) !important;
+}
