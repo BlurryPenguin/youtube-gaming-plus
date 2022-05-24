@@ -1,0 +1,128 @@
+/* Chat */
+body[ytg-plus] yt-live-chat-text-message-renderer {
+	min-height: 24px;
+	padding: 0.5rem 2rem !important;
+}
+
+body[ytg-plus] yt-live-chat-text-message-renderer[ytg-chat-alt]:not([in-banner]),
+body[ytg-plus] yt-live-chat-paid-message-renderer[ytg-chat-alt]:not([in-banner]),
+body[ytg-plus] yt-live-chat-membership-item-renderer[ytg-chat-alt]:not([in-banner]),
+body[ytg-plus] .yt-live-chat-item-list-renderer[ytg-chat-alt]:not([in-banner]) {
+	background-color: rgba(33, 33, 33, 0.98) !important;
+}
+
+body[ytg-plus] yt-live-chat-text-message-renderer[ytg-deleted] {
+	opacity: 0.75 !important;
+}
+
+body[ytg-plus] yt-live-chat-text-message-renderer[ytg-hidden] {
+	display: none !important;
+}
+
+body[ytg-plus] yt-live-chat-text-message-renderer:not([ytg-hidden]) {
+	display: flex;
+}
+
+body[ytg-plus] img[ytg-hidden].yt-live-chat-author-badge-renderer {
+	display: none !important;
+}
+
+body[ytg-plus] #author-name.member.yt-live-chat-author-chip.yt-live-chat-text-message-renderer,
+body[ytg-plus] #author-name.moderator.yt-live-chat-author-chip.yt-live-chat-text-message-renderer {
+	font-weight: 800 !important;
+}
+
+body[ytg-plus]
+	yt-live-chat-text-message-renderer:not([in-banner])
+	yt-live-chat-author-chip[is-highlighted]
+	#author-name.yt-live-chat-author-chip,
+yt-live-chat-text-message-renderer:not([in-banner])
+	yt-live-chat-author-chip[is-highlighted]
+	#author-name.yt-live-chat-author-chip {
+	background-color: var(--yt-live-chat-author-chip-verified-background-color) !important;
+}
+
+body[ytg-plus] yt-live-chat-author-badge-renderer[type='verified'] #image.yt-live-chat-author-badge-renderer {
+	background-color: var(--dark-theme-divider-color) !important;
+	border-radius: 50% !important;
+	margin-left: 0.1em;
+}
+
+body[ytg-no-avatar] #author-photo.yt-live-chat-text-message-renderer,
+body[ytg-no-avatar] #author-photo.yt-live-chat-membership-item-renderer,
+body[ytg-no-avatar] #author-photo.yt-live-chat-paid-message-renderer {
+	display: none !important;
+}
+
+body[ytg-plus] #author-name.moderator.yt-live-chat-author-chip {
+	color: var(--yt-live-chat-moderator-color) !important;
+}
+
+
+/*body[ytg-plus] yt-live-chat-author-chip.yt-live-chat-text-message-renderer,
+body[ytg-plus] yt-live-chat-author-chip.yt-live-chat-membership-item-renderer,
+body[ytg-plus] yt-live-chat-author-chip.yt-live-chat-paid-message-renderer
+*/
+body[ytg-plus] yt-live-chat-author-chip {
+	direction: rtl;
+}
+/*body[ytg-plus] yt-live-chat-author-chip.yt-live-chat-text-message-renderer::before,
+body[ytg-plus] yt-live-chat-author-chip.yt-live-chat-membership-item-renderer::before,
+body[ytg-plus] yt-live-chat-author-chip.yt-live-chat-paid-message-renderer::before
+*/
+body[ytg-plus] yt-live-chat-author-chip::before {
+	content: ':';
+}
+
+body[ytg-plus] #chat-badges.yt-live-chat-author-chip {
+	direction: ltr;
+}
+
+
+body[ytg-plus] yt-live-chat-paid-message-renderer:not([in-banner]) #chat-badges.yt-live-chat-author-chip,
+body[ytg-plus] yt-live-chat-membership-item-renderer:not([in-banner]) #chat-badges.yt-live-chat-author-chip {
+	margin-left: 0.3em;
+	margin-right: 0.3em;
+}
+
+body[ytg-plus] #chip-badges.yt-live-chat-author-chip {
+	float: left;
+}
+
+body[ytg-plus] yt-live-chat-text-message-renderer.img-placeholder {
+	height: 24px;
+}
+
+body[ytg-plus] yt-live-chat-author-badge-renderer.yt-live-chat-author-chip {
+	margin: 0 0.2em 0 0 !important;
+}
+
+/* body[ytg-plus] yt-icon.yt-live-chat-author-badge-renderer  */
+body[ytg-plus] img.yt-live-chat-author-badge-renderer {
+	padding: 0 0.2em 0 0;
+}
+
+body[ytg-plus] #message.yt-live-chat-text-message-renderer .emoji.yt-live-chat-text-message-renderer {
+	width: auto !important;
+}
+
+body[ytg-plus] #deleted-state.yt-live-chat-text-message-renderer {
+	padding-left: 0.2em;
+}
+
+body[ytg-plus] #timestamp.yt-live-chat-text-message-renderer {
+	margin: var(--yt-live-chat-item-timestamp-margin, 0 0.5em 0 0);
+}
+
+body[ytg-plus] yt-img-shadow[ytg-hidden] {
+	display: none !important;
+	margin-right: 0px !important;
+	width: 0px !important;
+}
+
+body[ytg-plus]
+	ytg-live-chat-text-input-field-suggestion[hover]
+	tp-yt-paper-item.yt-live-chat-text-input-field-suggestion,
+ytg-live-chat-text-input-field-suggestion[active] tp-yt-paper-item.yt-live-chat-text-input-field-suggestion {
+	background-color: #343434;
+}

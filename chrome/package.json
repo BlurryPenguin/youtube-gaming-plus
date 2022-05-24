@@ -1,0 +1,16 @@
+{
+	"name": "youtube-gaming-plus",
+	"short_name": "Youtube Gaming Plus",
+	"description": "Addons for Youtube Gaming ",
+	"version": "0.1.4",
+	"author": {
+		"name": "BlurryPenguin"
+	},
+	"scripts": {
+		"watch": "./watch.sh",
+		"build": "./build.sh -zip"
+	},
+	"volta": {
+		"node": "14.15.0"
+	}
+}

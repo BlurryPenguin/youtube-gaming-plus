@@ -1,0 +1,205 @@
+body {
+	font-family: 'system-ui', sans-serif;
+	font-size: 14px;
+	margin: 0;
+	padding: 1em;
+	border: solid #e6e6e6;
+	border-width: thin;
+	overflow: visible;
+	display: block;
+	box-sizing: border-box;
+	background-color: rgb(51, 51, 51);
+	color: #e6e6e6;
+	width: 40em;
+}
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+section {
+	display: inline-block;
+	padding: 0.5em;
+}
+.form_enclosed {
+	max-width: 660px;
+	margin: 0 auto;
+	clear: both;
+	display: none;
+}
+.switch {
+	cursor: pointer;
+}
+btn-chip {
+	height: 32px;
+	min-width: 12px;
+	padding: 0 10px;
+	border-radius: 16px;
+	box-sizing: border-box;
+	outline: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	cursor: pointer;
+	user-select: none;
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	display: -ms-inline-flexbox;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 2rem;
+	letter-spacing: 0.2px;
+	font-family: Roboto, Arial, sans-serif;
+	color: #e6e6e6;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: background-color 0.5s cubic-bezier(0.05, 0, 0, 1);
+}
+btn-chip:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+btn-chip[primary] {
+	color: #3ea6ff;
+	border: 1px solid #3ea6ff;
+}
+.icon-circle {
+	height: 16px;
+	min-width: 6px;
+	padding: 0 5px;
+	border-radius: 8px;
+	box-sizing: border-box;
+	outline: none;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	user-select: none;
+	position: relative;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-ms-flex-direction: row;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	display: -ms-inline-flexbox;
+	display: -webkit-inline-flex;
+	display: inline-flex;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height: 2rem;
+	letter-spacing: 0.2px;
+	font-family: Roboto, Arial, sans-serif;
+	color: #e6e6e6;
+	background-color: rgba(255, 255, 255, 0.1);
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	transition: background-color 0.5s cubic-bezier(0.05, 0, 0, 1);
+}
+.icon-circle::after {
+	content: '?';
+}
+.icon-circle:hover {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+.settings-header-bar {
+	float: left;
+}
+#loading {
+	display: block;
+	float: right;
+}
+#sectionStatus {
+	display: none;
+	margin-bottom: 0;
+	float: right;
+}
+#sectionChat {
+	float: left;
+}
+#sectionVisual {
+	float: right;
+}
+.settings-footer-bar {
+	clear: both;
+	float: left;
+	padding: 0 0 1em 0.5em;
+}
+#sectionSaveBar {
+	float: right;
+	padding: 0 0 1em 0;
+	width: 40%;
+}
+
+/* The switch - the box around the slider */
+.switch {
+	position: relative;
+	display: inline-block;
+	width: 15em;
+	height: 1.5em;
+	margin: 0.2em 0 0.2em 0;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+/* The slider */
+.slider {
+	position: absolute;
+	cursor: pointer;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: #444444;
+	box-shadow: 0px 1.6px 3.6px rgb(0 0 0 / 25%), 0px 0px 2.9px rgb(0 0 0 / 22%);
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+.slider:before {
+	position: absolute;
+	content: '';
+	width: 5em;
+	height: 1.5em;
+	background-color: white;
+	-webkit-transition: 0.4s;
+	transition: 0.4s;
+}
+
+input:checked + .slider {
+	background-color: #3ea6ff;
+}
+
+input:focus + .slider {
+	box-shadow: 0 0 1px #3ea6ff;
+}
+
+input:checked + .slider:before {
+	-webkit-transform: translateX(10em);
+	-ms-transform: translateX(10em);
+	transform: translateX(10em);
+}
+
+/* Rounded sliders */
+.slider.round {
+	border-radius: 15%;
+}
+
+.slider.round:before {
+	border-radius: 7%;
+}
