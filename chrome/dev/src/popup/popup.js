@@ -1,1 +1,1 @@
-// scripts.js
+// popup.js

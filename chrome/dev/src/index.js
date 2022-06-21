@@ -5,11 +5,24 @@
 	// /live
 	const VALID_STREAM_URL = /https:\/\/www\.youtube\.com\/watch\?v=/i;
 	const VALID_LIVE_URL = /https:\/\/www\.youtube\.com\/*(.+)\/live/i;
-	const settingsKey = visualSettingsKey;
+	const settingsKey = 'youTubeGamingPlus.visualSettings';
 	let loaded = false;
 	let isActive = false;
 	let isInFocus = false;
-	let visualSettings = { ...defaultVisualSettings };
+	let visualSettings = {
+		chat: {
+			nameColor: true,
+			icon: true,
+			showDeleted: false,
+			simulatedDelay: false,
+			separatedLines: true,
+			bttvEmotes: true,
+			ffzEmotes: true,
+		},
+		theatreMode: true,
+		showReplayChat: true,
+		qualityOptimization: false,
+	};
 	let channelTitle = '';
 	let videoCategory = '';
 	let videoViews = '';

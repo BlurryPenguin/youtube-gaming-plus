@@ -460,7 +460,7 @@ class Emotes {
 		for (let word of words) {
 			word = word.replace(pattern, '');
 			const emote = await this.getEmote(word);
-			if (emote && !excludesWords.includes(word.toLowerCase()))
+			if (emote && !this.excludesWords.includes(word.toLowerCase()))
 				message = message.replace(new RegExp(`(?!")${word}(?!")`), Utils.emoteToImage(emote));
 		}
 
@@ -476,7 +476,7 @@ class Emotes {
 	};
 
 	clean = (emotes) => {
-		return emotes.filter((emote) => !excludesWords.includes(emote.code.toLowerCase()));
+		return emotes.filter((emote) => !this.excludesWords.includes(emote.code.toLowerCase()));
 	};
 
 	mergeFFZ = (emotes, channel) => {

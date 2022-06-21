@@ -32,7 +32,7 @@
 		},
 		{
 			"all_frames": true,
-			"js": ["src/chat/chat-services.js", "src/chat/index.js"],
+			"js": ["src/chat.js"],
 			"matches": ["*://*.youtube.com/live_chat*"],
 			"run_at": "document_start"
 		}
@@ -49,14 +49,7 @@
 			"matches": ["*://*.youtube.com/*"]
 		},
 		{
-			"resources": [
-				"src/services.js",
-				"src/chat/chat-services.js",
-				"src/popup/popup.js",
-				"src/index.js",
-				"src/chat/emotesInjected.js",
-				"src/chat/index.js"
-			],
+			"resources": ["src/services.js", "src/chat.js", "src/popup/popup.js", "src/index.js"],
 			"matches": ["*://*.youtube.com/*"]
 		}
 	]
